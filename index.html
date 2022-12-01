@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>JuddijConsult_Website</title>
+    <!-- Bootstrap CSS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- The Navigation Bar Area -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand mt-2 mt-lg-0" href="#">
+          <img
+            src="co_logo.jpg"
+            height="120"
+            alt="Juddij Logo"
+            loading="lazy"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end align-items-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="about_us.html"
+                target="_blank"
+              >
+                About Us</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Previous Projects
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Onshore Nigeria</a></li>
+                <li><a class="dropdown-item" href="#">Offshore Niger </a></li>
+                <li>
+                  <a class="dropdown-item" href="#">On / Offshore Qatar</a>
+                </li>
+                <li><a class="dropdown-item" href="#">North Sea </a></li>
+              </ul>
+            </li>
+
+            Ongoing Studies
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">AI and Deep Learning</a></li>
+                <li><a class="dropdown-item" href="#">Offshore Niger </a></li>
+                <li>
+                  <a class="dropdown-item" href="#">On / Offshore Qatar</a>
+                </li>
+                <li><a class="dropdown-item" href="#">North Sea </a></li>
+              </ul>
+            </li>
+
+            Useful links
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">AI and Deep Learning</a></li>
+                <li><a class="dropdown-item" href="#">Offshore Niger </a></li>
+                <li>
+                  <a class="dropdown-item" href="#">On / Offshore Qatar</a>
+                </li>
+                <li><a class="dropdown-item" href="#">North Sea </a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- End of the  Navigation Bar Area Begin Header Area-->
+
+    
+
+    <header class="page-header gradient">
+      <div class="container pt-3"></div>
+      <div class="row align-items-center justify-content-space-between">
+        <div
+          class="col-md-4"
+          data-aos="fade-right"
+          data-aos-delay="500"
+          data-aos-duration="3000"
+        >
+          <h2>JuddijConsult</h2>
+          <h4>
+            A geophysical consultancy working with other subsurface
+            professionals to deliver projects
+          </h4>
+      
+        </div>
+
+        <div
+          class="col-md-8"
+          data-aos="zoom-in"
+          data-aos-delay="500"
+          data-aos-duration="3000"
+        >
+          <div class="cask float-end">
+            <h2 class="w3-center">Experience and Previous Projects</h2>
+
+            <div class="w3-content w3-display-container">
+              <img class="mySlides" src="onshore1.jpg" width="750" />
+              <img class="mySlides" src="offshore1.jpg" width="750" />
+              <img class="mySlides" src="qat.jpg" width="750" />
+              <img class="mySlides" src="UK.jpg" width="750" />
+
+              <button
+                class="w3-button w3-black w3-display-left"
+                onclick="plusDivs(-1)"
+              >
+                &#10094;
+              </button>
+              <button
+                class="w3-button w3-black w3-display-right"
+                onclick="plusDivs(1)"
+              >
+                &#10095;
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Wave Vector File-->
+
+
+ <!-- 
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#346751"
+        fill-opacity="1"
+        d="M0,160L48,133.3C96,107,192,53,288,37.3C384,21,480,43,576,53.3C672,64,768,64,864,74.7C960,85,1056,107,1152,117.3C1248,128,1344,128,1392,128L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+      ></path>
+    </svg>
+
+
+    -->
+
+    <section class="construct">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10">
+            <div class="wrapper">
+              <h1>Website under construction</h1>
+              <h2>A new dawn is coming</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10">
+            <h1>Ongoing and Future Projects</h1>
+            <p>Be sure you come over for some life changing experience</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="card-container">
+      <div class="cards">
+        <div class="img">
+          <img
+            src="Analytics process_Outline.svg"
+          />
+          <div class="body1">
+            <h2>Analysis of Open Source data </h2>
+            <p>
+              We have a full portfolio of completed projects available on
+              request, subject to confidentiality clauses. Please contact us for
+              further details
+            </p>
+            <div class="footer">
+              <button>Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="img">
+          <img
+            src="Artificial intelligence_Monochromatic.svg"
+          />
+          <div class="body1">
+            <h2>AI and Deep Learning</h2>
+            <p>
+              A number of applications have been developed to make the workflow
+              of the geophysicist streamlined . Please contact us for further
+              insights
+            </p>
+            <div class="footer">
+              <button>Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="img">
+          <img
+            src="Search engine _Two Color.svg"
+          />
+          <div class="body1">
+            <h2>Research Interests / Upcoming Projects</h2>
+            <p>
+              We are actively looking into using various modules of AI into the
+              development of Niche and State of the Art workflows in Geophysics
+            </p>
+            <div class="footer">
+              <button>Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    
+
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs((slideIndex += n));
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+      }
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
