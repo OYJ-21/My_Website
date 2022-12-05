@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .card-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+        column-gap: 20px;
+        row-gap: 20px;
+        outline: 2px solid blue;
+      }
+
+      .card {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        outline: 1px dotted red;
+        padding: 10px;
+        height: 700px;
+        width: 700px;
+        object-fit: contain;
+      }
+
+      .card__img {
+        object-fit: contain;
+        width: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>
+        Our ongoing projects and areas of interest are as shown on cards below
+      </h2>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="card-grid">
+          <div class="card">
+            <img
+              src="Artificial intelligence_Isometric.svg"
+              alt=""
+              class="card__img"
+            />
+            <div class="card__content">
+              <h2 class="card__title">
+                Application of Data Science techniques to Geophysical Workflows
+              </h2>
+              <p>
+                Through the knowledge obtained from Data Science studies, we
+                have been able to revisit familiar workflows and apply
+                techniques for quick QC and interactive displays. Tools used for
+                this include Python, Pandas, Numpy, and other associated
+                visualization libraries like Matplotlib etc, Seaborn. These
+                workflows have been successfully adapted to time to depth data
+                input analysis and output, screenshots of some of the output is
+                shown in tab below:
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="Artificial intelligence_Monochromatic.svg"
+              alt=""
+              class="card__img"
+            />
+            <div class="card__content">
+              <h2 class="card__title">
+                Integration of AI and Deep Learning to Geophysical Workflows
+              </h2>
+              <p>
+                With Artificial Intelligence and Deep Learning impacting
+                geophysical workflows, analysis of several workflows associated
+                with Neural Nets, Deep Learning were examined. Tools like Keras,
+                Tensorflow PyTorch have been applied using Open Source data.
+                Data sources include Kaggle, FORCE,
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="screenlog.jpg" alt="" class="card__img" />
+            <div class="card__content">
+              <h2 class="card__title">
+                Screenshots from Well QC Python Scripts
+              </h2>
+
+              <p>
+                These shots are from workflow being developed for depth
+                conversion
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="screenlog3.jpg" alt="" class="card__img" />
+            <div class="card__content">
+              <h2 class="card__title">
+                Screenshots from Well QC Python Scripts
+              </h2>
+
+              <p>
+                These shots are from workflow being developed for depth
+                conversion
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="index.html"
+          ><h3>back to home page</h3>
+          <img src="../logo.png" alt="logo" width="150"
+        /></a>
+      </div>
+    </main>
+  </body>
+</html>
